@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input,
+button,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.todo {
+  padding: 25px;
+  margin: 25px auto;
+  max-width: 600px;
+}
+
+.todo-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.todo-submit {
+  padding: 15px;
+  border: 0;
+  background-color: #2979ff;
+  color: white;
+  border-radius: 10px;
+}
+.todo-input {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+.todo-item {
+  margin-left: 15px;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px dotted #eee;
+  margin-bottom: 10px;
+}
+.todo-text {
+  flex: 1;
+  font-weight: 300;
+  color: #333;
+  display: inline-block;
+  padding-right: 20px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+.todo-remove {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #f00;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
